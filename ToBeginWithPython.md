@@ -31,10 +31,7 @@
 > #更新conda
 > conda update --all
 > #更新包
-> 
-> 
 > ```
->
 > 
 
 
@@ -61,4 +58,24 @@
 > - 在解决方案管理中可以变更Python环境-**尤其是使用Anaconda进行包管理**
 > - Python命令行:直接在工具中打开PowerShell命令行就可以进入(~~不是什么交互窗口,那个是实例用的~~)
 > - 工具-Python-交互窗口/交互中执行项目
+
+### GoodByeVS-真有你的呵VS
+
+```
+交互窗口中发生内部错误。请重启 Visual Studio。
+交互 Python 进程已退出。
+交互窗口中发生内部错误。请重启 Visual Studio。
+```
+
+## Here we go! PyCharm
+
+> [Download Community and FREE PyCharm: ](https://www.jetbrains.com/pycharm/download/#section=windows)
+
+### 删除过长的Prcharm右键菜单
+
+> 删除注册表中整个PyCharm文件夹(可能是带Community的)
+>
+> 计算机\HKEY_CLASSES_ROOT\Directory\Background\shell\PyCharm
+
+
 
