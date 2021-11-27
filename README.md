@@ -1,4 +1,4 @@
-**Hi，this repository is used but not only used to record my Python learning path**
+### **Hi，this repository is used but not only used to record my Python learning path**
 
 > 这里给出几篇参考,也算是一个本人学习Python的收藏夹
 >

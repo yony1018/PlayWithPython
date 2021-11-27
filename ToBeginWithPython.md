@@ -71,7 +71,14 @@
 
 > [Download Community and FREE PyCharm: ](https://www.jetbrains.com/pycharm/download/#section=windows)
 
-### 删除过长的Prcharm右键菜单
+### Tips
+
+> - Click twice `Shift` to open all-in-one SEARCHFUNC
+> - Return to [Welcome to PyCharm]: File->Close Project
+
+### Issues
+
+#### 删除过长的Prcharm右键菜单
 
 > 删除注册表中整个PyCharm文件夹(可能是带Community的)
 >
