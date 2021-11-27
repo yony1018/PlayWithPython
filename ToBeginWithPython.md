@@ -75,7 +75,9 @@
 
 > 删除注册表中整个PyCharm文件夹(可能是带Community的)
 >
-> 计算机\HKEY_CLASSES_ROOT\Directory\Background\shell\PyCharm
+> > 计算机\HKEY_CLASSES_ROOT\Directory\Background\shell\PyCharm
+> >
+> > 计算机\HKEY_CLASSES_ROOT\Directory\shell\PyCharm
 
 
 
