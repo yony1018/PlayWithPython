@@ -31,9 +31,17 @@
 > #更新conda
 > conda update --all
 > #更新包
-> ```
 > 
-
+> ```
+> conda包换源
+>
+> ```
+> conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+> 
+> conda config --set show_channel_urls yes
+> ```
+>
+> 
 
 
 > pip
@@ -44,7 +52,26 @@
 > pip list
 > pip install [PackageName]
 > ```
+> pip包换源
+>
+> 修改或者创建C:\Users\用户名\pip\pip.ini文件
+>
+> ```
+> [global]
+> index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 > 
+> #查看是否换源
+> pip config l
+> ```
+>
+> 其他可选择源：
+> 阿里云 http://mirrors.aliyun.com/pypi/simple/
+>
+> 中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+>
+> 豆瓣(douban) http://pypi.douban.com/simple/
+>
+> 清华大学 https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ## 使用VS2019运行Python项目
 
@@ -75,6 +102,7 @@
 
 > - Click twice `Shift` to open all-in-one SEARCHFUNC
 > - Return to [Welcome to PyCharm]: File->Close Project
+> - 文件名变红是这些文件还没有在git中提交
 
 ### Issues
 
