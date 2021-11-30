@@ -103,6 +103,7 @@
 > - Click twice `Shift` to open all-in-one SEARCHFUNC
 > - Return to [Welcome to PyCharm]: File->Close Project
 > - 文件名变红是这些文件还没有在git中提交
+> - 官方插件库中有**中文插件**
 
 ### Issues
 
