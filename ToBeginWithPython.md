@@ -6,6 +6,14 @@
 
 > 如果已经由VisualStutio或Anaconda安装
 >
+> > 对于Anaconda
+> >
+> > 可能出现_ssl或squite3包无法装载的问题
+> >
+> > [win10中的import ssl报错处理_dally2的博客-CSDN博客](https://blog.csdn.net/dally2/article/details/103917604)
+> >
+> > 缺哪个补哪个
+>
 > 检查系统环境路径PATH是否已添加Python环境
 
 ### Python开发环境
@@ -41,7 +49,11 @@
 > conda config --set show_channel_urls yes
 > ```
 >
-> 
+> > 如果出现 `CondaHTTPError: HTTP 000 CONNECTION FAILED `
+> >
+> > 可以尝试转到 `C:\Users\[username]\.condarc` 把https换成http
+> >
+> > 并把-default删掉
 
 
 > pip
@@ -114,6 +126,22 @@
 > > 计算机\HKEY_CLASSES_ROOT\Directory\Background\shell\PyCharm
 > >
 > > 计算机\HKEY_CLASSES_ROOT\Directory\shell\PyCharm
+
+## JupyterNotebook
+
+> 交互方式的工程形式
+>
+> 仅是进行数据科学计算、可视化用Jupyter也行
+>
+> ~~libiglPython库基本只能在Jupyter上跑了，写方法的时候就没写控制符导致本地跑还得改包函数~~
+>
+> [(50条消息) Jupyter更改默认路径_Miracle8070-CSDN博客_jupyter路径设置](https://blog.csdn.net/wuzhongqiang/article/details/89702046)
+>
+> > 路径替换为C:\\\Users\\\16708\\\source\\\JupyterProj	防止转义
+
+插件：
+
+- [打造实用的Jupyter Notebook 扩展插件 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/97394628)
 
 
 
